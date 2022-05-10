@@ -10,6 +10,18 @@ body {
     background: linear-gradient( 190deg, rgb(210, 174, 210) 10%, rgb(136, 176, 244) 90% );
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+p {
+    opacity: .6;
+    font-size: 14px;
+}
+
 main {
     width: 350px;
     background-color: white;
@@ -22,7 +34,7 @@ main {
 #name,
 #email {
     display: block;
-    margin: 20px 0;
+    margin: 12px 0;
 }
 
 #services, 
@@ -35,26 +47,30 @@ input,
 select {
     font-family: Helvetica, sans-serif;
     font-size: 16px;
-}
-
-input,
-select,
-textarea {
     border-top-style: hidden;
     border-bottom-style: hidden;
     border-right-style: hidden;
     border-left-style: hidden;
-  }
+}
 
   .button #submit {
     border-radius: 25px;
     width: 100%;
     padding: 10px;
-    background-color: aqua;
+    color: white;
+    background: linear-gradient( 190deg, rgb(136, 176, 244)  10%, rgb(210, 174, 210) 90% );
     opacity: 1;
+    cursor: pointer;
   }
 
-  /* label {
-      opacity: .6;
-  } */
+  .button:hover {
+      opacity: .8;
+  }
+
+/* Form confirmation page */
+.confirm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 

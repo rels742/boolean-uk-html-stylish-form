@@ -5,9 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
-    <title>Full Stack Portfolio</title>
+    <title>Form</title>
   </head>
   <body>
+
+    <main>
+
+      <section>
+
+        <div class="form">
+
+          <header>
+            <h1> Say Hello😄!</h1>
+          </header>
+          
+          <form>
+
+            <label for="name">
+              Your name
+              <input type="text" id="name" placeholder="Enter your name" required>
+            </label>
+
+            <hr>
+
+            <label for="email">
+              Email
+              <input type="email" id="email" placeholder="Enter your email address" required>
+            </label>
+
+            <hr>
+
+            <label for="services">
+              Needed Services
+              <select name="Choose Services" id="services" >
+                  <option value="choose">Choose Services</option>
+                  <option value="marketing">Marketing</option>
+                  <option value="website">Website</option>
+                  <option value="seo">Search Engine Optimisation</option>
+              </select>
+          </label>
+
+          <hr>
+
+          <label for="budget">
+            Budget
+            <select name="Budget" id="budget" >
+                <option value="select">Select Budget</option>
+                <option value="100">100</option>
+                <option value="200">100-200</option>
+                <option value="300">300-500</option>
+            </select>
+        </label>
+
+        <hr>
+
+        <label for="message">
+          <p>Message</p>
+          <textarea name="terms" id="message" cols="30" rows="10" placeholder="Your message here" ></textarea>
+
+        </label>
+
+        <hr>
+
+        <div class="button">
+          <input type="submit" value="Submit" id="submit"/>
+        </div>
+          
+          </form>
+        </div>
+
+      </section>
+    </main>
 
   </body>
 </html>
